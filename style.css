@@ -1,0 +1,55 @@
+/* Universal Selector */
+*
+{
+  font-family: Times New Roman
+}
+section{
+    height:90vh;
+    width:65vw;
+    margin:20px;
+}
+/* Element Selector */
+h1{
+  color:rgb(0, 255, 179);
+  margin-left: 30vw;
+}
+
+/* Class Selector */
+.hobbies{
+  color:blue
+}
+
+/* ID Selector */
+#hey{
+  font-size:40px
+}
+
+/* Sibling Selector */
+li:first-child{
+  background-color:pink
+}
+li:nth-child(4){
+  background-color:cyan
+}
+li:nth-child(2){
+  background-color:greenyellow
+}
+
+
+li:nth-child(3){
+  background-color:yellow
+}
+li:last-child{
+  background-color:cyan
+}
+li:nth-child(5){
+  background-color:orange
+
+}
+
+.flex-adjust{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
